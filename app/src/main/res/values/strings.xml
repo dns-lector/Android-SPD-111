@@ -4,8 +4,9 @@
     <!-- MAIN ACTIVITY -->
     <string name="main_tv_title">Основи Андроїд</string>
     <string name="main_btn_calc">Калькулятор</string>
+    <string name="main_btn_game">Свайпи. Гра</string>
 
-    <!-- CALC ACTIVITY -->
+    <!-- region CALC ACTIVITY -->
     <string name="calc_tv_title">Calculator</string>
     <string name="calc_btn_percent">%</string>
     <string name="calc_btn_c">C</string>
@@ -33,5 +34,11 @@
     <string name="calc_btn_9">9</string>
     <string name="calc_limit_exceeded">Limit exceeded</string>
     <string name="calc_zero_division">Division by zero</string>
+    <!-- endregion -->
+
+    <!-- region GAME ACTIVITY -->
+
+
+    <!-- endregion -->
 
 </resources>
