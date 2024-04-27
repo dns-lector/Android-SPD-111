@@ -46,9 +46,25 @@ public class CalcActivity extends AppCompatActivity {
                             )
             ).setOnClickListener( this::onDigitButtonClick );
         }
-
+        findViewById(R.id.calc_btn_inverse).setOnClickListener(this::onInverseClick);
     }
+    private void onInverseClick(View view) {
+        String result = tvResult.getText().toString();
+        double x = Double.parseDouble(result);
+        if(x == 0) {
+            Toast.makeText(this, R.string.calc_zero_division, Toast.LENGTH_SHORT).show();
+            return;
+        }
+        x = 1.0 / x;
+        String str = ( x == (int) x )
+            ? String.valueOf( (int) x )
+            : String.valueOf( x );
 
+        if( str.length() > 13 ) {
+            str = str.substring(0, 13);
+        }
+        tvResult.setText( str );
+    }
     /*
     При зміні конфігурації пристрою (поворотах, змінах налаштувань, тощо) відбувається
     перезапуск активності. При цьому подаються події життєвого циклу
