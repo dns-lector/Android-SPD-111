@@ -6,6 +6,7 @@
     <string name="main_btn_calc">Калькулятор</string>
     <string name="main_btn_game">Свайпи. Гра</string>
     <string name="main_btn_chat">Мережа. Чат</string>
+    <string name="main_btn_anim">Анімації</string>
 
     <!-- region CALC ACTIVITY -->
     <string name="calc_tv_title">Calculator</string>
@@ -44,6 +45,12 @@
 
     <!-- region GAME ACTIVITY -->
 
+
+    <!-- endregion -->
+
+    <!-- region ANIM ACTIVITY -->
+    <string name="anim_title">Анімації</string>
+    <string name="anim_opacity_title">Opacity</string>
 
     <!-- endregion -->
 
