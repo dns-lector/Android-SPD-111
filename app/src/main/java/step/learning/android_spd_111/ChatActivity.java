@@ -262,6 +262,7 @@ public class ChatActivity extends AppCompatActivity {
                 tv.setLayoutParams( msgParams );
                 container.addView(tv);
                 message.setView(tv);
+                tv.setTag(message);
             }
             /*
             chatScroller.fullScroll( View.FOCUS_DOWN ) ;
